@@ -1,0 +1,15 @@
+<h1>Search employee by Id</h1>
+  <form (ngSubmit)="searchEmployee()">
+    <div class="form-group">
+      <label for="employeeId">Employee ID:</label>
+      <input type="text" class="form-control" id="employeeId" [(ngModel)]="employeeId" name="employeeId">
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+  <div *ngIf="employee">
+    <h2>Employee Details</h2>
+    <p><strong>ID:</strong> {{ employee.id }}</p>
+    <p><strong>First Name:</strong> {{ employee.firstName }}</p>
+    <p><strong>Last Name:</strong> {{ employee.lastName }}</p>
+    <p><strong>Email ID:</strong> {{ employee.emailId }}</p>
+  </div>

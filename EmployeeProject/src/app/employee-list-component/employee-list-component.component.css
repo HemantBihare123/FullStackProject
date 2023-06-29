@@ -1,0 +1,16 @@
+.employee-list {
+    margin-bottom: 20px;
+  }
+  
+  .employee-list h1 {
+    font-size: 24px;
+  }
+  
+  .employee-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .employee-list li {
+    margin-bottom: 5px;
+  }

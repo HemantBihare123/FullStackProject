@@ -1,0 +1,31 @@
+.employee-details {
+    margin-bottom: 20px;
+  }
+  
+  .employee-details h2 {
+    font-size: 24px;
+  }
+  
+  /* Styling for the Employee Table section */
+  .employee-table {
+    margin-bottom: 20px;
+  }
+  
+  .employee-table h1 {
+    font-size: 24px;
+  }
+  
+  .employee-table table {
+    width: 100%;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Additional styles */
+  .container-fluid {
+    padding: 20px;
+  }

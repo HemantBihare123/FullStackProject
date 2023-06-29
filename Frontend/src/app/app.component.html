@@ -1,0 +1,18 @@
+<h1>Employee Data</h1>
+{{newdata |json}}
+<table>
+  <thead>
+    <td>Id</td>
+    <td>First Name</td>
+    <td>Last Name</td>
+    <td>Email</td>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of newdata">
+      <td>{{employee.id}}</td>
+      <td>{{employee.firstName}}</td>
+      <td>{{employee.LastName}}</td>
+      <td>{{employee.emailId}}</td>
+    </tr>
+  </tbody>
+</table>

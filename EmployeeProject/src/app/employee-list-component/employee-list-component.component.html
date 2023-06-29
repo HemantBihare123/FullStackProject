@@ -1,0 +1,10 @@
+<div class="container-fluid">
+  <h1>Employee List</h1>
+  <ul>
+    <li *ngFor="let employee of employeeData">
+      {{employee.id}} 
+      {{ employee.firstName }} 
+      {{ employee.lastName }} - 
+      {{ employee.emailId }}
+    </li>
+  </ul>
